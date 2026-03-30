@@ -13,9 +13,8 @@ import Layout from "Layout.jsx"
 <Route path="blog" element={<Blog />}>
 <Route path="*" element={<NoPage />}>
 </Route>
-
-<Routes/>
-<BrowserRouter/>
+</Routes>
+</BrowserRouter>
 
 
 import {Outlets,Link} from "react-router-dom"
