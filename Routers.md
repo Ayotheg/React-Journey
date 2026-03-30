@@ -6,6 +6,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom"
 import Layout from "Layout.jsx"
 
 <BrowserRouter> 
+{Elements you want to appear globally}
 <Routes>
 <Route path="/" element={<Layout />}>
 <Route index element={<Home />}>
@@ -18,3 +19,10 @@ import Layout from "Layout.jsx"
 
 
 import {Outlets,Link} from "react-router-dom"
+
+function Layout () {
+    return(
+        {Elements you want to appear in all pages}
+        <Outlets/>
+    );
+}
