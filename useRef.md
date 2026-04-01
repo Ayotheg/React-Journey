@@ -23,3 +23,14 @@ onChange = {(e)=>setTime (e.target.value)}
 
 );
 })
+
+Learnt about using useRef to store previous value, focus using (current.focus)
+useRef does not update the UI but rather store the value. 
+
+function Ide(){
+
+const Ref = useRef (0);
+
+const focusInput = Ref.current.focus()
+
+} 
