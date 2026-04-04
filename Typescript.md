@@ -35,4 +35,12 @@ console.log(Brand) // Run the complier and it translates it to .js cause thats t
 let useName: number = (5) 
 useName = ("Joe") //typescript returns an error 
 
+Readonly, unknown types
+//Learnt about these too, if you declare them in your code,they perform function accroding to thier name.
+
+
+let newbie:string[] readonly = ["Ayoola","Sultan","Omoniyi"];
+newbie.push("Newbie") //Error cause its readonly
+
+
 One advantage of typescript is that it spots error right in your code 
