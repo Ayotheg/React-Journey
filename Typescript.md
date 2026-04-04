@@ -44,3 +44,5 @@ newbie.push("Newbie") //Error cause its readonly
 
 
 One advantage of typescript is that it spots error right in your code 
+
+Learnt a bit about hoisting in Javascript. as a developer, it is best to declare your variables at the top of your code. Const cannot be reassigned or declared but you can add to it using something lile .push in a object or array. 
