@@ -1,0 +1,7 @@
+Learnt about #methods
+
+Methods are functions written inside objects. They are called using the .this. 
+You can pass or call an object property using the .this. 
+
+
+#constructor are special functions that runs an objects. 
